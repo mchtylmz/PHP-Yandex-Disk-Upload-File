@@ -4,7 +4,7 @@ $result = array('status' => 'error');
 $fileName = date('dmY') . '-backup';
 if (file_exists($fileName.'.zip')) {
   require_once 'YaDisk.php';,
-  $token = "AgAAAAA6DmoPAAXz-F4_0WLuHk6kuP_-QJQcuTU"; 
+  $token = "___TOKEN___"; 
   $disk = new YaDisk($token);
 
   // get info about disk
